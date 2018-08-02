@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang|Lobster');
+
+body{
+    background-color: rgb(255, 207, 189);
+}
+
+
+/*div {
+    background-color: antiquewhite}*/
+
+h2{
+    color: rgb(36, 156, 112);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-style: none;
+    font-size: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: 0;
+    border: 2px solid black;
+}
+
+
+
+.topnav {
+
+    background-color: rgb(189, 95, 61);
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: block;
+    color: rgb(248, 138, 98);
+    text-align: center;
+    float: left;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    left: 50%;
+
+    font-family: 'Lobster', cursive;
+    font-style: none;
+    font-size: 15px;
+    font-weight: normal;
+    font-variant: lowercase;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(18, 170, 119);
+    color: rgb(189, 95, 61);
+
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+} 
+
+
+
+
+#instagram {
+    background-image:url("mymessage.gif");
+    left:1400px; /* play around with this */
+    /* position:absolute; */
+    top:45px; /* and play around with this */
+    width:50px;
+
+}
+
+#twitter {
+    background-image:url("mymessage.gif");
+    left:1345px; /* play around with this */
+    /* position:absolute; */
+    top:50px; /* and play around with this */
+    width:50px;
+
+}
+
+#facebook {
+    background-image:url("mymessage.gif");
+    left:1270px; /* play around with this */
+    /* position:absolute; */
+    top:40px; /* and play around with this */
+    width:50px;
+
+}
+
+#snapchat {
+    background-image:url("mymessage.gif");
+    left:1200px; /* play around with this */
+    /* position:absolute; */
+    top:45px; /* and play around with this */
+    width:50px;
+
+}
+
+#universe{
+    width:250px;
+    height:230px;
+    /* position:relative; */
+    left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+    }
+
+    #colorful{
+    top:180px;
+    
+    /* position:absolute; */
+    }
+
+/* #color {
+    height:300px;
+    left:990px; 
+    position:absolute;
+    top:100px; 
+    width:300px;
+} */
+
+#titleBar {
+    ;
+}
+
+#socialMedia {
+    display: flex;
+    position: right;
+}
